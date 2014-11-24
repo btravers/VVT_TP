@@ -1,0 +1,9 @@
+simpleGame/core/Direction.class
+simpleGame/core/Board.class
+simpleGame/core/Game.class
+test/TestBoard.class
+simpleGame/cli/CLIMain.class
+simpleGame/exception/OutOfBoardException.class
+simpleGame/core/Pawn.class
+simpleGame/core/Pawn$1.class
+test/TestBoardMock.class

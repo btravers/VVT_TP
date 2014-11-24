@@ -1,0 +1,8 @@
+/home-reseau/btravers/TP/VVT/simpleGame/src/main/java/test/TestBoard.java
+/home-reseau/btravers/TP/VVT/simpleGame/src/main/java/test/TestBoardMock.java
+/home-reseau/btravers/TP/VVT/simpleGame/src/main/java/simpleGame/core/Pawn.java
+/home-reseau/btravers/TP/VVT/simpleGame/src/main/java/simpleGame/core/Direction.java
+/home-reseau/btravers/TP/VVT/simpleGame/src/main/java/simpleGame/core/Board.java
+/home-reseau/btravers/TP/VVT/simpleGame/src/main/java/simpleGame/exception/OutOfBoardException.java
+/home-reseau/btravers/TP/VVT/simpleGame/src/main/java/simpleGame/core/Game.java
+/home-reseau/btravers/TP/VVT/simpleGame/src/main/java/simpleGame/cli/CLIMain.java
