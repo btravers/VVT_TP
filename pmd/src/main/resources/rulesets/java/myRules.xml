@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<ruleset name="MyRules"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+    <rule name="ForRule"
+         language="java"
+        message="for rule"
+        class="vv.tp3.ForRule">
+        <description>
+           for rule
+        </description>
+        <priority>3</priority>
+
+
+        
+        <example>
+            <![CDATA[
+                public void doSomething() {
+                    for(int i = 0; i < 10; i++)
+                        for(int j = 0; j < 10; j++)
+                            bar(i,j);
+                }
+            ]]>
+        </example>
+    </rule>
+    
+    <rule name="WhileTrueRule"
+        language="java"
+        message="while true rule"
+        class="vv.tp3.WhileTrueRule">
+        <description>
+          while true rule
+        </description>
+        <priority>3</priority>
+        
+        
+        
+        <example>
+            <![CDATA[
+                public void doSomething() {
+                while (true)
+                    x++;
+                }
+            ]]>
+        </example>
+    </rule>
+
+</ruleset>

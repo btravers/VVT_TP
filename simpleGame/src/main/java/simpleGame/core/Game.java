@@ -22,8 +22,19 @@ public class Game {
         board = new Board(2,4,4, new Random().nextInt(4), new Random().nextInt(4));
     }
 
-    public Game(Board b) {
+    public Game(final Board b) {
         board = b;
+    }
+
+    public void useless() {
+        for(int i = 1; i <2; i++) {
+            for (int j = 1; j < 2; j++) {
+                int a =i + j;
+            }
+        }
+        int x = 0;
+        while (x < 100)
+            x++;
     }
 
     /**
@@ -32,8 +43,8 @@ public class Game {
      * @return true if the game is over
      */
     public boolean isGameOver() {
-        return (board.numberOfPawns()==1)
-               || (board.maxGold() >= 3);
+        return board.numberOfPawns()==1
+               || board.maxGold() >= 3;
     }
 
     /**
@@ -44,6 +55,9 @@ public class Game {
         String result = board.toString();
         if (isGameOver())
             result +="\n\n Game over";
+
+
+
         return result;
     }
 

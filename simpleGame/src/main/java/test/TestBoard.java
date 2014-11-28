@@ -27,7 +27,6 @@ public abstract class TestBoard {
         board = new Board(0, sizeX, sizeY, bonusX, bonusY);
     }
 
-    @Test
     public void testGetXSize() throws Exception {
         assertEquals(sizeX, board.getXSize());
     }
